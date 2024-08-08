@@ -1,0 +1,53 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IosSampleFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DemoClass",
+        "printedName": "DemoClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DemoClass",
+                "printedName": "IosSampleFramework.DemoClass",
+                "usr": "s:18IosSampleFramework9DemoClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IosSampleFramework9DemoClassCACycfc",
+            "mangledName": "$s18IosSampleFramework9DemoClassCACycfc",
+            "moduleName": "IosSampleFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18IosSampleFramework9DemoClassC",
+        "mangledName": "$s18IosSampleFramework9DemoClassC",
+        "moduleName": "IosSampleFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
